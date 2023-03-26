@@ -66,7 +66,7 @@ function checkAnswer(current){
             },1000)
         }
     }else{
-        playSound("Wrong");
+        playSound("wrong");
         $("body").addClass("game-over");
         $("#level-title").text("Game Over, Press Any Key to Restart");
 
